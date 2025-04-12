@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+}
+.hero-container .hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.main-header .main-nav {
+  margin-bottom: 15px;
+}
+.main-header .main-nav .nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-header .main-nav .nav-list .nav-item {
+  margin: 0 10px;
+}
+.main-header .main-nav .nav-list .nav-item .nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+.main-header .main-nav .nav-list .nav-item .nav-link:hover, .main-header .main-nav .nav-list .nav-item .nav-link.active {
+  background-color: #ffcc80;
+  color: #8b4513;
+}
+.main-header .logo-container img {
+  max-width: 200px;
+  height: auto;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.main-footer .social-links,
+.main-footer .location-link {
+  display: inline-block;
+  margin: 0 10px;
+}
+.main-footer .social-links img,
+.main-footer .location-link img {
+  width: 30px;
+  height: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
